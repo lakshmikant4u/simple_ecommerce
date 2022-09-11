@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background: #444;
+}
+.container{
+    width: 600px;
+    background: white;
+}
+.header{
+    display: flex;
+    padding: 20px 15px; 
+    justify-content: space-between;
+    /* {top-bottom} {left-right} */
+}
+.header__group{
+    display: flex;
+    gap: 10px;
+}
+.header__group:nth-of-type(2){
+    gap: 20px;
+}
+.header__logo{
+    width: 30px;
+    height: 30px;
+    background: url('https://cdn.dribbble.com/userupload/3158902/file/original-7c71bfa677e61dea61bc2acd59158d32.jpg');
+    background-size: 180%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+}
+.header__element{
+    width: 25px;
+    height: 25px;
+    background: #f8f6f6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.material-symbols-outlined{
+    font-size: 21px;
+}
+.header__dot{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #cf3939;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+.main{
+    padding: 20px 15px; 
+    justify-content: space-between;
+    /* {top-bottom} {left-right} */
+}
+.block{
+    display: flex;
+    padding: 20px 15px;
+}
+.disp_50 {
+    width: 50%;
+}
+
+.content {
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+}
